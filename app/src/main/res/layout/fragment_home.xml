@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hari.development.materialdesignlearn.activity.HomeFragment">
+    tools:context="com.hari.development.imhere.activity.HomeFragment">
 
 
     <TextView

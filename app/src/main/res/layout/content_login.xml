@@ -1,13 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_login"
-    tools:context="com.hari.development.imhere.activity.LoginActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-</RelativeLayout>
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/picture"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:id="@+id/details"
+        android:text="Show details"
+        android:layout_gravity="center"
+        android:layout_width="200sp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/share"
+        android:text="Share"
+        android:layout_gravity="center"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
