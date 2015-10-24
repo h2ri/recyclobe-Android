@@ -1,4 +1,4 @@
-package com.hari.development.materialdesignlearn.adapter;
+package com.hari.development.imhere.adapter;
 
 
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.hari.development.materialdesignlearn.R;
-import com.hari.development.materialdesignlearn.model.NavDrawerItem;
+import com.hari.development.imhere.R;
+import com.hari.development.imhere.model.NavDrawerItem;
 
 import java.util.Collections;
 import java.util.List;

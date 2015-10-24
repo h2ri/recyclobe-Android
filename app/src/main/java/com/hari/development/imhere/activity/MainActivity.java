@@ -1,4 +1,4 @@
-package com.hari.development.materialdesignlearn.activity;
+package com.hari.development.imhere.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.hari.development.materialdesignlearn.R;
+import com.hari.development.imhere.R;
 
 
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {

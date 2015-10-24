@@ -1,4 +1,4 @@
-package com.hari.development.materialdesignlearn.activity;
+package com.hari.development.imhere.activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,9 +16,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hari.development.materialdesignlearn.R;
-import com.hari.development.materialdesignlearn.adapter.NavigationDrawerAdapter;
-import com.hari.development.materialdesignlearn.model.NavDrawerItem;
+import com.hari.development.imhere.R;
+import com.hari.development.imhere.adapter.NavigationDrawerAdapter;
+import com.hari.development.imhere.model.NavDrawerItem;
 
 public class FragmentDrawer extends Fragment {
 

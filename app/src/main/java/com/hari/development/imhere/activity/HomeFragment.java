@@ -1,4 +1,4 @@
-package com.hari.development.materialdesignlearn.activity;
+package com.hari.development.imhere.activity;
 
 /**
  * Created by development on 28/09/15.
@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hari.development.materialdesignlearn.R;
+import com.hari.development.imhere.R;
 
 
 public class HomeFragment extends Fragment {
